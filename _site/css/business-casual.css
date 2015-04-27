@@ -27,33 +27,35 @@ h6 {
 p {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000000;
+  /* Main text properties */  color: #000000;
 }
 
 hr {
     max-width: 400px;
-    border-color: #999999;
-}
+    border-color: #999999;}
 
 .brand,
 .address-bar {
-    display: none;
-}
+    display: none;}
 
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    color: #fff; /* temp */
 }
 
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+    color: #fff; /* temp */
 }
 
 .img-full {
     min-width: 100%;
+
+
 }
 
 .brand-before,
@@ -147,6 +149,7 @@ footer p {
 
     .navbar {
         border-radius: 0;
+        text-align: center /* temp */
     }
 
     .navbar-header {
